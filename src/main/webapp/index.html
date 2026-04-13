@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Student Form</h2>
+
+<form action="StudentServlet" method="post">
+
+    PRN No: <input type="text" name="prn" required><br><br>
+
+    Name: <input type="text" name="name" required><br><br>
+
+    DOB: <input type="date" name="dob" required><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male" required> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    Subjects:<br>
+    <input type="checkbox" name="subjects" value="Java"> Java<br>
+    <input type="checkbox" name="subjects" value="Python"> Python<br>
+    <input type="checkbox" name="subjects" value="C++"> C++<br>
+    <input type="checkbox" name="subjects" value="Database"> Database<br>
+    <input type="checkbox" name="subjects" value="AI"> AI<br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
